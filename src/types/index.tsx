@@ -8,3 +8,13 @@ type GihubAuth = {
     clientSecret:string
     
 }
+
+type ButtonType ={
+    title:string;
+    clicked?:()=>void;
+    style:string
+
+}
+interface ProgressProps {
+    progress: number;
+  }
